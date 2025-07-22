@@ -9,7 +9,8 @@ const HashGenrated = (str) => {
         (curritem) =>
             //type ->1
             // curritem.replace(curritem[0], curritem[0].toUpperCase()));
-            //type -> 2
+
+            //type -2
             curritem.charAt(0).toUpperCase() + curritem.slice(1) // index 0 ko chodeke totaly dedo mean by slice....
     );
 
@@ -20,3 +21,22 @@ const HashGenrated = (str) => {
 };
 
 console.log(HashGenrated("my name is thapa technology"));
+
+
+
+
+//type - 3
+
+//const HashGenrated = (str) => {
+
+
+return '#' + str.split(" ")
+    .map(word => (
+        word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+    ))
+    .join("");
+
+
+//}
+
+//console.log(HashGenrated("my name is thapa technology"));
