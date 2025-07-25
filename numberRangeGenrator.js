@@ -15,4 +15,15 @@ const numberRange = (a, b) => {
 
 console.log(numberRange(0, 5));
 
-// recurson method... pen...
+// recurson method... 
+
+
+const recsRange = (a, b, arr = []) => {
+    if (a > b) {
+        return;
+    }
+    return recsRange(a++, b, arr.push(a));
+
+};
+
+console.log(recsRange(0, 5));
