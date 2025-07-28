@@ -13,3 +13,8 @@ const person = {
 const { name, age } = person;
 console.log(name); // Output: Tanushree
 console.log(age); // Output: 21
+
+
+
+const { name1, age1 } = person;
+console.log(name1);
