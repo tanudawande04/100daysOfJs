@@ -6,7 +6,7 @@ const passValidator = (pass) => {
 
     return regex.test(pass);
 
-
 }
 
 console.log(passValidator("Pass@123"));
+console.log(passValidator("Ajax@2323"));
