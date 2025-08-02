@@ -16,3 +16,13 @@ console.log(TruncateString("a man can change his cloths", 5));
 // concat method ....
 
 
+//debouncing 
+//event delegation
+// event bubling 
+//settimeout
+//stopPropgation.
+//memoization
+//space optimization
+
+
+
